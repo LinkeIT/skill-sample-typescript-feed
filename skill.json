@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Have Alexa read feeds to you from an RSS/Atom feed",
+          "examplePhrases": [
+            "Alexa open feed reader",
+            "Alexa tell feed reader to play favorites",
+            "Alexa ask feed reader to get categories"
+          ],
+          "name": "skill-sample-nodejs-feed",
+          "description": "Have Alexa read feeds to you from an RSS/Atom feed. Create a list of favorites and manage your feeds by category."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-skill-sample-nodejs-feed-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
